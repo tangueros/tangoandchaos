@@ -94,7 +94,7 @@ set :markdown_engine, :redcarpet
 
 
 configure :build do
-  set :build_dir, 'public'
+  set :build_dir, 'docs'
   set :base_url, ""
 
   #activate :asset_hash, ignore: "/assets/img/"
