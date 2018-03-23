@@ -1,0 +1,374 @@
+/* CSS Document */
+html, body, ul, ol, li, p, 
+h1, h2, h3, h4, h5, h6, 
+form, fieldset, a { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+text-decoration: none;
+} 
+a:hover {text-decoration: underline}
+body {
+	text-align: center;
+	margin: 5px;
+	padding: 2px;
+	color: #330000;
+	background-color: #E6E4CD;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100.01%;
+} 
+p	{
+	text-align:justify;
+	padding-bottom: 12px;
+}
+#holder {
+	width: 950px;
+	text-align:left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#content {
+	padding: 50px 15px 5px 34px;
+	margin-left: 350px;
+	
+}
+
+#linkBox a {
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+#linkBox a:hover {
+	text-decoration:underline;
+	
+}
+
+/*Use this for a page heading picture related to the content.  It goes up next 
+	to header, with the page intro down a bit and to the side.*/
+
+.picholder {
+	float:left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+/*These are grey background boxes for technique pics */
+
+.picborder {
+	border: 20px solid #EEEDDD;
+}
+.picbkgrd2 {
+	background: #EEEDDD;
+	text-align: center;
+	color: #1B1B1B;
+	font: italic 90% Arial, Helvetica, sans-serif;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.picbkgrd3 {
+	background: #EEEDDD;
+	text-align: center;
+	color: #1B1B1B;
+	font: italic 90% Arial, Helvetica, sans-serif;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.picbkgrd4 {
+	background: #EEEDDD;
+	text-align: center;
+	color: #1B1B1B;
+	font: italic 100% Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.paragraphHeader {
+	color: #CC3300;
+	letter-spacing:0.1em;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	}
+.pictureCaption {
+	font: bold 82% Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 6px;
+}
+
+/* Use floatLeft/Right for pics in the paragraph 
+	with no capiton or border*/
+
+img.floatLeft {
+	float: left;
+	margin-right: 8px;
+}
+img.floatRight {
+	float: right;
+	margin-left: 8px;
+}
+/* small images with silver border & caption*/
+
+div.figureLeft {
+	float: left;
+	border: thin silver solid;
+	padding: 0.8em;
+	background: #F5F5ED;
+	margin-top: 0.8em;
+	margin-right: 0.8em;
+	margin-left: 0.8em;
+}
+div.figureRight {
+	float: right;
+	border: thin silver solid;
+	padding: 0.8em;
+	background: #F5F5ED;
+	margin-top: 0.8em;
+	margin-right: 0.8em;
+	margin-left: 0.8em;
+}
+div.figureRight p {
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	color: #888888;
+	padding-top: 2px;
+}
+
+div.figureLeft p {
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	color: #888888;
+}
+div.music{
+	text-align: center;
+	width: 680px;
+	margin-left: 100px;
+	color: #333333;
+	background-color: #929F83;
+	padding-top: 10px;
+}
+div.musicSmall{
+	text-align: center;
+	width: 680px;
+	margin-left: 110px;
+	color: #333333;
+	background-color: #929F83;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+div.music5{
+	text-align: center;
+	width: 680px;
+	margin-left: 40px;
+	color: #333333;
+	background-color: #999999;
+}
+div.quote{
+	font-size: 90%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+div.quoteHeader{
+	padding-left: 250px;
+}
+.framepic15l {
+	float: left;
+	width: 20%;
+	border: thin silver solid;
+	padding: 0.8em;
+	background: #F7F7EE;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	color: #757575;
+	margin-top: 30px;
+	margin-right: 0.8em;
+	margin-left: 0.8em;
+}
+.framepic15r {
+	float: right;
+	width: 29%;
+	border: thin silver solid;
+	padding: 0.8em;
+	background: #F7F7EE;
+	margin: 30px 0.8em 0.8em;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    color: #757575;
+}
+.playbutton a{
+}
+.chapter {
+	font:24px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 0.15em;
+}
+.headerTitle {
+	font:normal 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: .15em;
+}
+.footerPage {
+	letter-spacing: 0.15em;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+}
+/* Styles for the Note, Question, and Comment pages.*/
+
+div.instructionBox{
+	background-color: #FFFFFF;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 2px solid #000066;
+}
+div.spacerBox{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	background-color: #E6E4CD;
+	padding-top: 20px;
+}
+div.miniSpacer{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	background-color: #E6E4CD;
+	padding-top: 3px;
+}
+div.answerBox{
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-align: justify;
+	border: thin solid #BFBFBF;
+}
+div.complimentBox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thin solid #C0DEDE;
+	font-size: 18px;
+	text-align: justify;
+	padding-bottom: 14px;
+	background-image: url(../image_files/QboxGrad.png);
+	background-color: #ffffee;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+}
+div.noticeBox{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+div.questionBox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thin solid #C0DEDE;
+	font-size: 16px;
+	text-align: justify;
+	padding-bottom: 10px;
+	background-image: url(../image_files/QboxGrad.png);
+	background-color: #ffffee;
+	background-repeat: no-repeat;
+}
+
+div.ruleBox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thin solid #C0DEDE;
+	font-size: 16px;
+	text-align: justify;
+	padding-bottom: 14px;
+	background-image: url(../image_files/QboxGrad.png);
+	background-color: #ffffee;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	margin-right: 36px;
+	margin-left: 36px;
+}
+div.smallBox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thin solid #C0DEDE;
+	font-size: 16px;
+	text-align: justify;
+	padding-bottom: 14px;
+	background-image: url(../image_files/QboxGrad.png);
+	background-color: #ffffee;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+div.tipBox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thin solid #C0DEDE;
+	text-align: justify;
+	padding-bottom: 10px;
+	background-image: none;
+	background-color: #FFFFF9;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.questionHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	font-style: italic;
+}
+.complimentFooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 285px;
+	padding-top: 5px;
+	font-style: italic;
+}
+div.noteBox{
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#instructionBox a {
+	text-decoration:none;
+	
+}
+#instructionBox a:hover {
+	text-decoration:underline;
+}

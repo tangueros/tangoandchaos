@@ -1,0 +1,94 @@
+@import url("style.css");
+/* CSS Document */
+
+#header {
+	color:#E6E5CC;
+	background: url(../image_files/greygradient.png);
+	letter-spacing: 0.1em;
+	margin-top: 5px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	font: 24px Georgia, "Times New Roman", Times, serif;
+}
+#nav {
+	float:left;
+	margin-top: 10px;
+	margin-right: 10px;
+	background: #666666 url(../image_files/greygradient.png);
+	width: 300px;
+}
+#menu {
+	margin-top: 6px;
+}
+#menu a {
+	text-align:center;
+	text-decoration:none;
+	color:#DDDDFF;
+	display:block;
+	border-bottom: 1px solid #FFFFFF;
+	width:300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+#menu a:visited {
+	text-decoration:none;
+	display:block;
+	width:300px;
+	border-bottom: 1px solid #FFFFFF;
+	background: #8F8F8F;
+	color: #DDDDFF;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#menu a:hover {
+	color:#fff;
+	background-color:#b2ab9b;
+	border-color:#dfd7ca #b2ab9b;
+	width:300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#footer {
+	background: url(../image_files/greygradient.png);
+	color:#E6E5CC;
+	margin-top: 5px;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 5px 0px 6px 20px;
+}
+
+
+H2	{/* FOR QUOTE NEXT TO NAV BOX AT TOP OF PAGE*/
+	margin-left: 200px;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px 0px 5px;
+}
+
+H3	{/* FOR "DAVID BYRNE" AUTHOR QUOTE NEXT TO NAVE BOX*/
+	margin-left: 510px;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	margin-top: -25px;
+	padding-top: 15px;
+	background: left;
+	text-align: left;
+	padding-bottom: 5px;
+}
+H4	{/*FORMAT FOR NAV HEADERS*/
+	font: bold 16px Arial, Helvetica, sans-serif;
+	color: #E6E5CC;
+	text-align: center;
+	}
+																						
+H5	{/*FOR TRENNER QUOTE INCDENT IN BODY*/
+	margin-left: 100px;
+	font: italic normal 14px Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-right: 100px;
+	padding-bottom: 5px;
+	}

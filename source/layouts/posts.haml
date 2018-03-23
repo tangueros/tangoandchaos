@@ -1,0 +1,37 @@
+- thistitle = current_page.data.title
+- thischapter = current_page.data.chapter
+
+- content_for :chapnav do
+  - blog.articles.reverse.select do |article|
+    %ul
+      - if article.data.chapter == thischapter
+        %li
+          = link_to article.title, article.url
+
+- content_for :chaprss do
+  = stylesheet_link_tag "chapt_1.css"
+  = stylesheet_link_tag "chapt_2.css"
+
+- content_for :pagenav do
+  - prev_link = current_article.article_previous
+  - next_link = current_article.article_next
+  - if prev_link
+    = link_to "Prev", prev_link.url
+  |
+  = link_to "Home", "/index.html"
+  |
+  - if next_link
+    = link_to "Next", next_link.url
+
+
+= wrap_layout :rick do
+  #menu
+    = yield_content :chapnav
+
+  %article.container
+    %h1.entry-title
+      = thistitle
+    .entry-content
+      = yield
+    #linkBox
+      = yield_content :pagenav

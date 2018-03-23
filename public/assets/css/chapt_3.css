@@ -1,0 +1,80 @@
+@import url("style.css");
+/* CSS Document */
+
+#header {
+	background: url(../image_files/blugrad.png);
+	color: #E6E5CC;
+	letter-spacing: 0.1em;
+	margin-top: 5px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	font: 24px Georgia, "Times New Roman", Times, serif;
+}
+#nav {
+	float:left;
+	margin-top: 10px;
+	margin-right: 10px;
+	background: url(../image_files/blugrad.png);
+	width: 310px;
+}
+
+#navheader {
+	color: #D7DAE9;
+	
+}
+#menu a {
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	height:20px;
+	border-bottom: 1px solid #FFFFFF;
+	width:310px;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+#menu a:visited {
+	text-decoration:none;
+	color: #fff;
+	display:block;
+	width:310px;
+	height:20px;
+	background: #548DC7;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+#menu a:hover {
+	color:#fff;
+	width:310px;
+	background: #b2ab9b;
+}
+#footer {
+	background: url(../image_files/blugrad.png);
+	color:#E6E5CC;
+	margin-top: 5px;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 5px 0px 6px 20px;
+	}
+.videocaption {
+	font-size: 70%;
+}
+H2	{
+	margin-left: 285px;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+H3	{
+	margin-left: 400px;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+H4	{
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-align: center;
+}

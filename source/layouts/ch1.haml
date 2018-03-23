@@ -1,0 +1,34 @@
+- thischapter = current_page.data.chapter
+- prev_link = current_article.previous_article
+- next_link = current_article.next_article
+= wrap_layout :rick do
+  = stylesheet_link_tag "chapt_1.css"
+  = stylesheet_link_tag "chapt_2.css"
+
+  #holder
+    #linkBox{:align => "center"}
+      - if prev_link
+        = link_to "Prev", prev_link.url
+      |
+      = link_to "Home", "/index.html"
+      |
+      - if next_link
+        = link_to "Next", next_link.url
+
+    #header.tcHead
+      .header{:align => "left"}
+        %span.Chapter Chapter 1 |
+        %span.style7
+          %span.headerTitle Reports from 2001
+
+    #nav.tcNav
+      %img.tcHead{:alt => "Riot Police,  Diagonale Street, Buenos Aires", :height => "182", :src => "tc_pics/img_unshp.jpg", :width => "300"}/
+
+
+      #menu
+        - blog.articles.reverse.select do |article|
+          - if article.data.chapter == thischapter
+            = link_to article.title, article.url
+
+
+    = yield
